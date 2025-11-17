@@ -48,7 +48,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               <li className="text-sm font-light text-white/70" data-testid="text-footer-email">
-                info@allumi.com.au
+                Jan@Allumi.com
               </li>
               <li className="text-sm font-light text-white/70" data-testid="text-footer-location">
                 Sydney, Australia
@@ -60,7 +60,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs font-light text-white/40" data-testid="text-copyright">
-              © 2024 Allumi. All rights reserved.
+              © {new Date().getFullYear()} Allumi. All rights reserved.
             </p>
             <div className="flex gap-8">
               <Link href="/privacy" data-testid="link-footer-privacy">
