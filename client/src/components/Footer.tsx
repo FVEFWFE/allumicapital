@@ -51,7 +51,7 @@ export default function Footer() {
                 Jan@Allumi.com
               </li>
               <li className="text-sm font-light text-white/70" data-testid="text-footer-location">
-                Sydney, Australia
+                Singapore
               </li>
             </ul>
           </div>

@@ -18,7 +18,7 @@ export default function About() {
                 Creating ambitious returns by investing in meaningful and successful growth partnerships
               </h1>
               <p className="text-lg font-light text-white/70 leading-relaxed mb-8" data-testid="text-about-intro">
-                Allumi is a leading private equity firm based in Australia, focused on partnering with exceptional businesses and management teams to create long-term value.
+                Allumi is a leading private equity firm based in Singapore, focused on partnering with exceptional businesses and management teams to create long-term value.
               </p>
             </div>
           </div>

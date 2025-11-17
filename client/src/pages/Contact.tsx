@@ -55,10 +55,9 @@ export default function Contact() {
                   <div>
                     <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Office</h3>
                     <p className="text-base font-light text-white/80" data-testid="text-office-address">
-                      Level 23, Governor Phillip Tower<br />
-                      1 Farrer Place<br />
-                      Sydney NSW 2000<br />
-                      Australia
+                      UE Square<br />
+                      83 Clemenceau Avenue<br />
+                      Singapore
                     </p>
                   </div>
 
