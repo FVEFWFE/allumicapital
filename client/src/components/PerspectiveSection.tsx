@@ -9,7 +9,7 @@ export default function PerspectiveSection() {
           <div className="relative aspect-[4/5] overflow-hidden">
             <img
               src={perspectiveImage}
-              alt="Quadrant team collaboration"
+              alt="Allumi team collaboration"
               className="w-full h-full object-cover"
               data-testid="img-perspective"
             />

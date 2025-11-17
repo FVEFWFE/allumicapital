@@ -78,7 +78,7 @@ export default function FundsInvestments() {
                 Funds & Investments
               </h1>
               <p className="text-lg font-light text-white/70 leading-relaxed max-w-3xl mx-auto" data-testid="text-portfolio-subtitle">
-                Quadrant's portfolio of managed funds and investments has enabled exponential growth for companies based in Australia and New Zealand.
+                Allumi's portfolio of managed funds and investments has enabled exponential growth for companies based in Australia and New Zealand.
               </p>
             </div>
 

@@ -65,7 +65,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Email</h3>
                     <p className="text-base font-light text-white/80" data-testid="text-email">
-                      info@quadrantpe.com.au
+                      info@allumi.com.au
                     </p>
                   </div>
 

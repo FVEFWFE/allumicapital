@@ -30,7 +30,7 @@ export default function PortfolioSection() {
             Funds & Investments
           </h2>
           <p className="text-lg font-light text-white/70 mb-8 max-w-3xl mx-auto leading-relaxed" data-testid="text-portfolio-subtitle">
-            Quadrant's portfolio of managed funds/investments has enabled exponential growth for companies based in Australia and New Zealand.
+            Allumi's portfolio of managed funds/investments has enabled exponential growth for companies based in Australia and New Zealand.
           </p>
           <Link href="/funds-investments" data-testid="link-view-all">
             <span className="inline-block text-xs font-light tracking-[0.2em] text-white uppercase border-b border-white/40 hover:border-white pb-1 cursor-pointer transition-colors">
