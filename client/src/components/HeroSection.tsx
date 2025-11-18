@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import heroVideo from "@assets/hero-video.mov";
+import logoImage from "@assets/allumi_1_-removebg-preview_1763377431447.png";
 
 export default function HeroSection() {
   return (
@@ -16,9 +17,12 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/60" />
 
       <div className="relative z-10 max-w-[900px] mx-auto px-8 text-center">
-        <h1 className="text-lg md:text-xl font-light tracking-[0.2em] text-white/60 mb-6 uppercase" data-testid="text-hero-label">
-          Allumi — Illuminate Your Growth
-        </h1>
+        <div className="flex items-center justify-center gap-4 mb-6" data-testid="text-hero-label">
+          <img src={logoImage} alt="Allumi" className="h-8 md:h-10 w-auto" />
+          <span className="text-lg md:text-xl font-light tracking-[0.2em] text-white/60 uppercase">
+            — Illuminate Your Growth
+          </span>
+        </div>
         <p className="text-3xl md:text-4xl lg:text-5xl font-light text-white mb-12 leading-relaxed" data-testid="text-hero-title">
           Creating ambitious returns by investing in meaningful and successful growth partnerships with likeminded founders, owners, families, and their businesses is our approach.
         </p>
