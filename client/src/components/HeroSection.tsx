@@ -18,7 +18,7 @@ export default function HeroSection() {
 
       <div className="relative z-10 max-w-[900px] mx-auto px-8 text-center">
         <div className="flex items-center justify-center gap-4 mb-6" data-testid="text-hero-label">
-          <img src={logoImage} alt="Allumi" className="h-8 md:h-10 w-auto -mb-3" />
+          <img src={logoImage} alt="Allumi" className="h-8 md:h-10 w-auto translate-y-[-4px]" />
           <span className="text-lg md:text-xl font-light tracking-[0.2em] text-white/60 uppercase">
             — Illuminate Your Growth
           </span>
