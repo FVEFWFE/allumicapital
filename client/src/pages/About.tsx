@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import perspectiveImage from "@assets/generated_images/Perspective_section_office_team_8f9e8783.png";
+import perspectiveImage from "@assets/quadrant-office.webp";
 
 export default function About() {
   return (
