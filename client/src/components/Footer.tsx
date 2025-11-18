@@ -7,7 +7,9 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-8">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
-            <img src={logoImage} alt="Allumi" className="h-8 w-auto mb-6" data-testid="img-footer-logo" />
+            <Link href="/" data-testid="link-footer-logo">
+              <img src={logoImage} alt="Allumi" className="h-8 w-auto mb-6 cursor-pointer" data-testid="img-footer-logo" />
+            </Link>
             <p className="text-sm font-light text-white/60 leading-relaxed" data-testid="text-footer-tagline">
               Creating ambitious returns through meaningful partnerships and strategic investments.
             </p>
