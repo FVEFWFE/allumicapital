@@ -71,7 +71,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Phone</h3>
                     <p className="text-base font-light text-white/80" data-testid="text-phone">
-                      +61 2 9239 7200
+                      +1(630) 755-6753
                     </p>
                   </div>
                 </div>
