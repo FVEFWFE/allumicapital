@@ -27,11 +27,11 @@ export default function About() {
         <section className="py-20 bg-[#0a0a0a]">
           <div className="max-w-[1400px] mx-auto px-8">
             <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-              <div className="relative aspect-[4/5] overflow-hidden max-w-md mx-auto lg:mx-0">
+              <div className="relative w-full">
                 <img
                   src={janJegenImage}
                   alt="Jan Jegen, Founder"
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto"
                   data-testid="img-about-team"
                 />
               </div>
@@ -45,6 +45,17 @@ export default function About() {
                 </p>
                 <p className="text-lg font-light text-white/70 leading-relaxed">
                   We believe in building lasting relationships with founders, owners, and families, working together to unlock the full potential of their businesses through strategic guidance, operational excellence, and access to our extensive network.
+                </p>
+                <blockquote className="border-l-2 border-white/30 pl-6 mt-8">
+                  <p className="text-xl font-light italic text-white/80 mb-2">
+                    "Elige Vincere"
+                  </p>
+                  <p className="text-sm font-light text-white/50 uppercase tracking-wider">
+                    Choose to Conquer
+                  </p>
+                </blockquote>
+                <p className="text-lg font-light text-white/70 leading-relaxed italic">
+                  "Real wealth and success comes from long-term mutually beneficial relationships."
                 </p>
               </div>
             </div>
