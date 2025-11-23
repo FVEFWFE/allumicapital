@@ -18,9 +18,9 @@ export default function HeroSection() {
 
       <div className="relative z-10 max-w-[900px] mx-auto px-8 text-center">
         <div className="flex items-center justify-center gap-4 mb-6" data-testid="text-hero-label">
-          <img src={logoImage} alt="Allumi" className="hidden md:block h-8 md:h-10 w-auto translate-y-[-6px]" />
+          <img src={logoImage} alt="Allumi" className="hidden lg:block h-8 md:h-10 w-auto translate-y-[-6px]" />
           <span className="text-lg md:text-xl font-light tracking-[0.2em] text-white/60 uppercase">
-            <span className="hidden md:inline">— </span>Illuminate Your Growth
+            <span className="hidden lg:inline">— </span>Illuminate Your Growth
           </span>
         </div>
         <p className="text-3xl md:text-4xl lg:text-5xl font-light text-white mb-12 leading-relaxed" data-testid="text-hero-title">
