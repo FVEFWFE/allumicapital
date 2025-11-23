@@ -62,23 +62,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-xs font-light text-white/40" data-testid="text-copyright">
-              © {new Date().getFullYear()} Allumi. All rights reserved.
-            </p>
-            <div className="flex gap-8">
-              <Link href="/privacy" data-testid="link-footer-privacy">
-                <span className="text-xs font-light text-white/40 hover:text-white/70 cursor-pointer transition-colors">
-                  Privacy Policy
-                </span>
-              </Link>
-              <Link href="/terms" data-testid="link-footer-terms">
-                <span className="text-xs font-light text-white/40 hover:text-white/70 cursor-pointer transition-colors">
-                  Terms of Service
-                </span>
-              </Link>
-            </div>
-          </div>
+          <p className="text-xs font-light text-white/40" data-testid="text-copyright">
+            © {new Date().getFullYear()} Allumi. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
