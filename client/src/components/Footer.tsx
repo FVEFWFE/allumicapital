@@ -52,6 +52,9 @@ export default function Footer() {
               <li className="text-sm font-light text-white/70" data-testid="text-footer-email">
                 Jan@Allumi.com
               </li>
+              <li className="text-sm font-light text-white/70" data-testid="text-footer-phone">
+                +1(630) 755-6753
+              </li>
               <li className="text-sm font-light text-white/70" data-testid="text-footer-address">
                 Capital Square<br />
                 23 Church Street<br />
