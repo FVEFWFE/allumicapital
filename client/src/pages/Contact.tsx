@@ -53,25 +53,9 @@ export default function Contact() {
 
                 <div className="space-y-8">
                   <div>
-                    <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Office</h3>
-                    <p className="text-base font-light text-white/80" data-testid="text-office-address">
-                      Capital Square<br />
-                      23 Church Street<br />
-                      Singapore 049481
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Email</h3>
-                    <p className="text-base font-light text-white/80" data-testid="text-email">
-                      Jan@Allumi.com
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Phone</h3>
-                    <p className="text-base font-light text-white/80" data-testid="text-phone">
-                      +1(630) 755-6753
+                    <h3 className="text-sm font-light tracking-[0.15em] text-white/50 uppercase mb-4">Get in Touch</h3>
+                    <p className="text-base font-light text-white/80" data-testid="text-contact-info">
+                      Use the form to reach out and we'll respond promptly.
                     </p>
                   </div>
                 </div>

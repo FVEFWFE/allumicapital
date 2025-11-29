@@ -49,13 +49,10 @@ export default function Footer() {
               Contact
             </h4>
             <ul className="space-y-3">
-              <li className="text-sm font-light text-white/70" data-testid="text-footer-email">
-                Jan@Allumi.com
-              </li>
-              <li className="text-sm font-light text-white/70" data-testid="text-footer-address">
-                Capital Square<br />
-                23 Church Street<br />
-                Singapore 049481
+              <li className="text-sm font-light text-white/70" data-testid="text-footer-contact-info">
+                <Link href="/contact">
+                  <span className="hover:text-white cursor-pointer transition-colors">Get in touch</span>
+                </Link>
               </li>
             </ul>
           </div>

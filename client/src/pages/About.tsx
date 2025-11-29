@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import janJegenImage from "@assets/jan-jegen.jpg";
 
 export default function About() {
   return (
@@ -26,16 +25,7 @@ export default function About() {
 
         <section className="py-20 bg-[#0a0a0a]">
           <div className="max-w-[1400px] mx-auto px-8">
-            <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-              <div className="relative w-full">
-                <img
-                  src={janJegenImage}
-                  alt="Jan Jegen, Founder"
-                  className="w-full h-auto"
-                  data-testid="img-about-team"
-                />
-              </div>
-
+            <div className="max-w-2xl mx-auto">
               <div className="space-y-8">
                 <h2 className="text-3xl md:text-4xl font-light leading-tight text-white" data-testid="text-philosophy-title">
                   Our Philosophy
